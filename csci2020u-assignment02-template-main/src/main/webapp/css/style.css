@@ -1,0 +1,64 @@
+body{
+background-color:#265585;
+}
+h1{
+  padding: 6px 8px 6px 16px;
+  color: #fca687;
+}
+h2{
+  padding: 6px 8px 6px 16px;
+  background-color: #f7f6f5;
+}
+h3{
+	
+	padding: 6px 8px 6px 16px;
+}
+
+footer{
+  color: white;
+  padding: 6px 8px 6px 16px;
+}
+.sidenav {
+  height: 600px;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 150;
+  left: 0;
+  background-color: #fca687; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background-color: white;
+  height: 600px;
+}
+.chat{
+height : 50px;
+background-color: white;
+}
+.welcome{
+	
+	margin-top: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
